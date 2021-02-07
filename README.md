@@ -19,6 +19,8 @@ Finally, find countours with `cv2.findContours()` and filter by size with `cv2.c
 ![countour image](./mods/image.png)
 
 ## Usage
+First, install requirements with `pip install -r requirements.txt`
+
 `python extract.py <path to file or directory>`
 
 The extracted files will be placed in the `extracted` folder.
